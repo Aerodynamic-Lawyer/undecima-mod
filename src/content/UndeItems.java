@@ -25,7 +25,7 @@ public class TantItems {
       lithium = new Item("3-lithium", Color.valueOf("#d3e8ea")) {{
             hardness = 2;
             cost = 0.4f;
-            charge = 0.3
+            charge = 0.3f;
         }};
 
        limestone = new Item("4-limestone", Color.valueOf("#e0e0d2")) {{
