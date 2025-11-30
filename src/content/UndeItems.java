@@ -1,4 +1,4 @@
-package Unde;
+package unde;
 
 import arc.graphics.*;
 import arc.struct.*;
