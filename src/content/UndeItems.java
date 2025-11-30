@@ -5,11 +5,11 @@ import arc.struct.*;
 import mindustry.content.Items;
 import mindustry.type.*;
 
-public class TantItems {
+public class UndeItems {
     public static Item
     iron, fakelead, lithium, limestone, sulfur, biomass, fakesand, clay, fakegraphite, fakesilicon;
 
-    public static final Seq<Item> TantItems = new Seq<>();
+    public static final Seq<Item> UndeItems = new Seq<>();
 
     public static void load() {
        iron = new Item("1-iron", Color.valueOf("#9f9694")) {{
@@ -63,8 +63,8 @@ public class TantItems {
             cost = 0.5f;
         }};
 
-        TantItems.addAll(
-             cobalt, coralchunk   
+        UndeItems.addAll(
+             iron, fakelead, lithium, limestone, sulfur, biomass, fakesand, clay, fakegraphite, fakesilicon
         );
     }
 }
